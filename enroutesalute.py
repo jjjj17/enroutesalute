@@ -13,10 +13,6 @@ def solution(s):
     return(salutes)
 
 string = '--->-><-><-->-'
+s2 = ">----<"
 print(solution(string))
-
-
-#Se me ocurre que puede ser, para x contar la cantidad de opuestos que vienen de frente y sumarlo para el string completo.
-#Lo otro que se me ocurre es en vez de ir uno por uno, contarlo una vez para las combinaciones del string completo.
-#Los < se tienen que contar al reves, de derecha a izq.
-#podría guardarlos todos que no sean "-"
+print(solution(s2))
